@@ -115,7 +115,7 @@ install_ss() {
     
     cat > "$CONFIG_FILE" <<EOF
 {
-    "server": "0.0.0.0",
+    "server": "::",
     "server_port": ${PORT},
     "password": "${PASSWORD}",
     "method": "${METHOD}",
